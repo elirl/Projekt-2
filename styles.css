@@ -1,0 +1,333 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; 
+    text-align: center; 
+    list-style: none;
+   }
+   html{
+       scroll-behavior: smooth;
+   }
+   body{
+       background-image: url(imgs/fondo1.jpg);
+       background-repeat: no-repeat;
+       background-size: cover;
+       background-position: center; 
+   }
+   h1, p{
+       color:white;
+   }
+   /*Slider del header*/
+   .imgs{
+       width: 400px;
+       overflow: hidden;
+       margin-top: 100px;
+       margin: auto;
+   }
+   .imgs ul{
+   display: flex;
+   padding: 0;
+   width:400%;
+   animation: slider 15s infinite alternate;
+   }
+   .imgs ul:hover{
+       animation-play-state: paused;
+       cursor: pointer;
+   }
+   .imgs li{
+       list-style: none;
+       width: 100%;
+   }
+   .imgs img{
+       width:400px;
+       height:300px;
+   }
+    @keyframes slider{
+        0%{
+            margin-left: 0%;
+        }
+        15%{
+            margin-left: 0%;
+        }
+        25%{
+            margin-left: -100%;
+        }
+        40%{
+           margin-left: -100%;
+       }
+       50%{
+           margin-left: -200%;
+       }
+       65%{
+           margin-left: -200%;
+       }
+       70%{
+           margin-left: -300%;
+       }
+       80%{
+           margin-left: -300%;
+       }
+       90%{
+           margin-left: -400%;
+       }
+       100%{
+           margin-left:-400%;
+       }
+    }
+    /*Fin del SLIDER*/
+    h1{
+        font: size 6vw;;
+    }
+    nav ul{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    nav a{
+        text-decoration:none;
+        padding:10px;
+       color:inherit;
+       font-size:14px;
+       }
+             
+   nav li{
+       padding:5px;
+       background-color: orange;
+       border: 1px solid red;
+       text-align:center;
+       color:#fff;
+       position:relative;
+   }
+             
+   nav li:hover{
+       background-color:#fff;
+       color:#000;
+       }
+             
+   nav li>ul{
+       display:none;
+       list-style: none;
+       }
+   
+   nav li:hover>ul{
+       display:block;
+       position: absolute;
+       top:30px;
+       left:0px;
+   }
+   ul{
+       list-style: none;
+   }
+    main{
+        margin-top: 15px;
+    }
+    .container{
+        display: flex;
+        width:80%;
+        margin: 0 auto;
+    }
+    .container figure img { 
+       width: 27vw;
+       height: 38vh;
+       border-style: solid;
+       border-color: rgba(3, 150, 211, 0.7);
+       border-width: 3px;
+       border-radius: 500px;
+    }
+    .container figure figcaption{
+        position: sticky;
+        width:12vw;
+        margin: -150px auto;
+        background-color: teal;
+        color: whitesmoke;
+    }
+    #main-div{
+        margin-top:300px;
+    }
+   section{
+     display:flex;
+     flex-direction:column;
+       padding:50px 20px;
+       width:40%;
+       background-color: wheat;
+       margin:15px 125px;
+       border: 1px solid transparent;
+       border-radius: 15px;
+   }
+   article{
+       margin-top:-540px;
+       background-color: turquoise;
+       width:40%;
+       float:right;
+       height:550px;
+       padding:20px 50px;
+       margin-right: 125px;
+       border: 1px solid transparent;
+       border-radius: 15px;
+   }
+   .details{
+      float: left;
+      margin-left:15px;
+       margin-top:-15px;
+       height: 100px;
+       width:45%;
+   }
+   @media(max-width:1300px){
+      section{
+       padding:50px 0px;
+       margin:15px 90px;
+   }
+   
+   article{
+       margin-top:-540px;
+       height:525px;
+       padding:20px 50px;
+       margin-right: 90px;
+   }
+     .details{
+       float:initial;
+           margin: 0 auto;
+           margin-top:-10px;
+           height: 100px;
+           width:60%;
+       }
+   }
+   @media(max-width:1000px){
+     section{
+       padding:50px 0px;
+       margin:15px 80px;
+   }
+   
+   article{
+       padding:20px 50px;
+       margin-right: 80px;
+   }
+   }
+   @media(max-width:900px){
+     section{
+       margin:15px 70px;
+   }
+   
+   article{
+       margin-right: 70px;
+   }
+   }
+   @media(max-width:800px){
+     section{
+       margin:15px 60px;
+   }
+   
+   article{
+       margin-right: 60px;
+   }
+   }
+   @media (max-width:700px){
+       .container{
+           flex-direction: column;
+       }
+       .container figure img{
+           width:40vw;
+           height: 30vh;
+       }
+       .container figure figcaption{
+           position:absolute;
+           left:42.5%;
+           margin: -130px auto;
+         color:black;
+       }
+       #main-div{
+           margin-top:0;
+       }
+       section{
+           margin:15px 40px;
+       }
+       article{
+           margin-right: 40px;
+       }
+       .details{
+            margin-top:-15px;
+            height: 75px;
+            width:60%;
+        }
+   }
+   @media (max-width:650px){
+     article{
+        margin-top:-555px;
+       height:540px;
+     }
+   }
+   @media (max-width:485px){
+     section{
+       padding:35px 0px;
+           margin:15px 30px;
+       }
+       article{
+           margin-right: 30px;
+         padding:20px 20px;
+         margin-top:-485px;
+       height:455px;
+       }
+      .container figure img{
+           width:60vw;
+           height: 30vh;
+       }
+   }
+   @media(max-width:400px){
+     nav ul{
+       flex-wrap:wrap;
+     }
+     nav li>ul{
+       display:none;
+       list-style: none;
+       }
+   
+   nav li:hover>ul{
+       display:block;
+       top:30px;
+       left:0px;
+     z-index:10;
+   }
+     .imgs{
+       width: 400px;
+       overflow: hidden;
+       margin-top: 100px;
+       margin: auto;
+   }
+   .imgs{
+       width: 300px;
+   }
+   
+   .imgs img{
+       width:300px;
+       height:300px;
+   }
+     section{
+       padding:25px 0px;
+           margin:15px 20px;
+       }
+       article{
+           margin-right: 20px;
+         padding:20px 10px;
+         margin-top:-485px;
+       height:455px;
+       }
+     .container figure img{
+           width:70vw;
+           height: 30vh;
+       }
+     .container figure figcaption{
+           position:absolute;
+           left:38.5%;
+           margin: -140px auto;
+       }
+   }
+   @media(max-width:330px){
+     .imgs{
+       width: 270px;
+   }
+   
+   .imgs img{
+       width:270px;
+       height:270px;
+   }
+   }
