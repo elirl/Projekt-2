@@ -269,35 +269,32 @@
            width:60vw;
            height: 30vh;
        }
+       nav ul{
+        flex-wrap:wrap;
+      }
+      nav li>ul{
+        display:none;
+        list-style: none;
+        }
+    
+    nav li:hover>ul{
+        display:block;
+        top:30px;
+        left:0px;
+      z-index:10;
+    }
    }
    @media(max-width:400px){
-     nav ul{
-       flex-wrap:wrap;
-     }
-     nav li>ul{
-       display:none;
-       list-style: none;
-       }
-   
-   nav li:hover>ul{
-       display:block;
-       top:30px;
-       left:0px;
-     z-index:10;
-   }
-     .imgs{
-       width: 400px;
-       overflow: hidden;
-       margin-top: 100px;
-       margin: auto;
-   }
+    
    .imgs{
        width: 300px;
+       margin:0 auto;
    }
    
    .imgs img{
        width:300px;
        height:300px;
+       margin: 0 auto;
    }
      section{
        padding:25px 0px;
