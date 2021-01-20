@@ -2,9 +2,7 @@
     font-family: 'valorant';
     src: url(ValorantFont.ttf)
 }
-   html{
-       scroll-behavior: smooth;
-   }
+
    body{
        background-image: url(imgs/fondo1.jpg);
        background-repeat: no-repeat;
