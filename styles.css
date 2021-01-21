@@ -167,6 +167,8 @@
        border-radius: 15px;
    }
    article{
+        display:flex;
+        flex-direction: column;
        margin-top:-540px;
        background-color: turquoise;
        width:40%;
@@ -183,6 +185,18 @@
        margin-top:-15px;
        height: 100px;
        width:45%;
+   }
+   .bbn{
+       width:150px;
+       height:70px;
+   }
+   .bbnradio{
+    padding:30px 20px;
+   }
+   article div{
+       display: block;
+       position: relative;
+       top:370px;
    }
    @media(max-width:1300px){
       section{
@@ -260,6 +274,9 @@
             margin-top:-15px;
             height: 75px;
             width:60%;
+        }
+        article div{
+            top:330px;
         }
    }
    @media (max-width:650px){
