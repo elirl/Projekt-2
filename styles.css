@@ -43,7 +43,7 @@
    }
    .imgs ul:hover{
        animation-play-state: paused;
-       cursor: pointer;
+       cursor: wait;
    }
    .imgs li{
        list-style: none;
