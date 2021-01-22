@@ -171,11 +171,11 @@ body{
    article{
         display:flex;
         flex-direction: column;
-       margin-top:-510px;
+       margin-top:-545px;
        background-color: turquoise;
        width:40%;
        float:right;
-       height:530px;
+       height:555px;
        padding:20px 50px;
        margin-right: 125px;
        border: 1px solid transparent;
@@ -207,8 +207,8 @@ body{
    }
    
    article{
-       margin-top:-500px;
-       height:495px;
+       margin-top:-545px;
+       height:535px;
        padding:20px 50px;
        margin-right: 90px;
    }
@@ -275,8 +275,8 @@ body{
            margin:15px 40px;
        }
        article{
-         margin-top:-500px;
-         height:490px;
+         margin-top:-520px;
+         height:510px;
            margin-right: 40px;
            padding:20px 30px;
        }
@@ -302,7 +302,7 @@ body{
    }
    @media (max-width:650px){
      article{
-        margin-top:-555px;
+        margin-top:-565px;
        height:540px;
      }
    }
