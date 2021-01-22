@@ -103,11 +103,11 @@
         text-decoration:none;
        color:inherit;
        
-       font-size:10px;
+       font-size:12px;
        }
              
    nav li{
-        padding: 5px 15px;
+        padding: 5px 12px;
        background-color: orange;
        border: 1px solid red;
        text-align:center;
@@ -261,7 +261,6 @@
            position:absolute;
            left:42.5%;
            margin: -130px auto;
-         color:black;
        }
        #main-div{
            margin-top:0;
@@ -323,7 +322,6 @@
     }
    }
    @media(max-width:400px){
-    
    .imgs{
        width: 300px;
        margin:0 auto;
@@ -352,6 +350,13 @@
            position:absolute;
            left:38.5%;
            margin: -140px auto;
+       }
+       .bbn{
+        width:120px;
+        height:60px;
+    }
+    .bbnradio{
+        padding:30px 10px;
        }
    }
    @media(max-width:330px){
