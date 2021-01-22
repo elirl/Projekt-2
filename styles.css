@@ -284,6 +284,13 @@
             width:90%;
             padding:20px;
         }
+        .bbn{
+            width:120px;
+            height:60px;
+        }
+        .bbnradio{
+            padding:20px 5px;
+           }
    }
    @media (max-width:650px){
      article{
@@ -351,13 +358,7 @@
            left:38.5%;
            margin: -140px auto;
        }
-       .bbn{
-        width:120px;
-        height:60px;
-    }
-    .bbnradio{
-        padding:30px 10px;
-       }
+       
    }
    @media(max-width:330px){
      .imgs{
