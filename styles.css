@@ -3,7 +3,7 @@
     src: url(ValorantFont.ttf)
 }
 
-   body{
+body{
        background-image: url(imgs/fondo1.jpg);
        background-repeat: no-repeat;
        background-size: cover;
@@ -171,11 +171,11 @@
    article{
         display:flex;
         flex-direction: column;
-       margin-top:-540px;
+       margin-top:-510px;
        background-color: turquoise;
        width:40%;
        float:right;
-       height:550px;
+       height:530px;
        padding:20px 50px;
        margin-right: 125px;
        border: 1px solid transparent;
@@ -207,8 +207,8 @@
    }
    
    article{
-       margin-top:-540px;
-       height:525px;
+       margin-top:-500px;
+       height:495px;
        padding:20px 50px;
        margin-right: 90px;
    }
@@ -219,6 +219,9 @@
            height: 100px;
            width:60%;
        }
+     article div{
+            top:310px;
+        }
    }
    @media(max-width:1000px){
      section{
@@ -248,6 +251,9 @@
    article{
        margin-right: 60px;
    }
+      article div{
+            top:280px;
+        }
    }
    @media (max-width:700px){
        .container{
@@ -269,6 +275,8 @@
            margin:15px 40px;
        }
        article{
+         margin-top:-500px;
+         height:490px;
            margin-right: 40px;
            padding:20px 30px;
        }
@@ -278,7 +286,7 @@
             width:60%;
         }
         article div{
-            top:330px;
+            top:320px;
         }
         header{
             width:90%;
@@ -348,9 +356,9 @@
        }
        article{
            margin-right: 20px;
-         padding:20px 10px;
-         margin-top:-485px;
-       height:455px;
+         padding:20px 0px;
+         margin-top:-410px;
+       height:385px;
        }
      .container figure img{
            width:70vw;
@@ -361,15 +369,34 @@
            left:38.5%;
            margin: -140px auto;
        }
+     h2{
+       font-size:15px;
+     }
+     article div{
+       top:160px;
+     }
        
    }
    @media(max-width:330px){
      .imgs{
        width: 270px;
    }
-   
+     
    .imgs img{
        width:270px;
        height:270px;
    }
    }
+@media(max-width:300px){
+  section{
+       padding:25px 0px;
+           margin:15px 10px;
+       }
+       article{
+           margin-right: 10px;
+         padding:20px 0px;
+         margin-top:-410px;
+       height:385px;
+       }
+}
+/* ancho maximo 272px de ahi deja de ser responsive :v */
