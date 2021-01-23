@@ -381,7 +381,10 @@ article li{
      h2{
        font-size:15px;
      }
-
+     header{
+        width:90%;
+        padding:10px;
+    }
        
    }
    @media(max-width:330px){
