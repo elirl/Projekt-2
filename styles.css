@@ -171,23 +171,24 @@ body{
    article{
         display:flex;
         flex-direction: column;
-       margin-top:-530px;
+       margin-top:-510px;
        background-color: turquoise;
        width:40%;
        float:right;
-       height:540px;
+       height:495px;
        padding:20px 50px;
        margin-right: 125px;
        border: 1px solid transparent;
        border-radius: 15px;
    }
    .details{
-      float: left;
-      margin-left:15px;
-       margin-top:-15px;
-       height: 100px;
-       width:45%;
-   }
+       float:initial;
+       padding:10px;
+           margin: 0 auto;
+           margin-top:-10px;
+           height: 120px;
+           width:60%;
+       }
    .bbn{
        width:150px;
        height:70px;
@@ -195,11 +196,7 @@ body{
    .bbnradio{
     padding:30px 20px;
    }
-   article div{
-       display: block;
-       position: relative;
-       top:370px;
-   }
+
    .final-img{
     width:80%;
     margin: 0 auto;
@@ -211,6 +208,12 @@ footer{
 h2{
     font-size:20px;
 }
+article ul{
+    margin-top:15px;
+}
+article li{
+ padding:15px;
+}
    @media(max-width:1300px){
       section{
        padding:50px 0px;
@@ -218,21 +221,12 @@ h2{
    }
    
    article{
-       margin-top:-530px;
-       height:520px;
+       margin-top:-510px;
+       height:495px;
        padding:20px 50px;
        margin-right: 90px;
    }
-     .details{
-       float:initial;
-           margin: 0 auto;
-           margin-top:-10px;
-           height: 100px;
-           width:60%;
-       }
-     article div{
-            top:310px;
-        }
+     
    }
    @media(max-width:1000px){
      section{
@@ -261,12 +255,10 @@ h2{
    
    article{
        margin-right: 60px;
-       margin-top:-520px;
-         height:490px;
+       margin-top:-510px;
+         height:495px;
    }
-      article div{
-            top:280px;
-        }
+
    }
    @media (max-width:700px){
        .container{
@@ -279,7 +271,7 @@ h2{
        .container figure figcaption{
            position:absolute;
            left:42.5%;
-           margin: -130px auto;
+           margin: -100px auto;
        }
        #main-div{
            margin-top:0;
@@ -289,19 +281,19 @@ h2{
            padding:30px 20px;
        }
        article{
-         margin-top:-440px;
-         height:430px;
+         margin-top:-400px;
+         height:385px;
            margin-right: 40px;
            padding:20px 30px;
        }
+       article li{
+        padding:10px;
+       }
        .details{
-            margin-top:-15px;
-            height: 75px;
+            height: 125px;
             width:90%;
         }
-        article div{
-            top:220px;
-        }
+
         header{
             width:90%;
             padding:20px;
@@ -319,10 +311,10 @@ h2{
             height:100px;
         }
    }
-   @media (max-width:650px){
+   @media (max-width:615px){
      article{
-        margin-top:-460px;
-       height:425px;
+        margin-top:-445px;
+       height:410px;
      }
    }
    @media (max-width:485px){
@@ -332,9 +324,9 @@ h2{
        }
        article{
            margin-right: 30px;
-         padding:20px 20px;
-         margin-top:-485px;
-       height:455px;
+         padding:20px 10px;
+         margin-top:-445px;
+       height:410px;
        }
       .container figure img{
            width:60vw;
@@ -354,9 +346,7 @@ h2{
         left:0px;
       z-index:10;
     }
-    article div{
-        top:250px;
-    }
+
    }
    @media(max-width:400px){
    .imgs{
@@ -386,15 +376,12 @@ h2{
      .container figure figcaption{
            position:absolute;
            left:38.5%;
-           margin: -140px auto;
+           margin: -90px auto;
        }
      h2{
        font-size:15px;
      }
-     article div{
-       top:160px;
-     }
-     
+
        
    }
    @media(max-width:330px){
@@ -406,7 +393,24 @@ h2{
        width:270px;
        height:270px;
    }
+   article li{
+       padding: 10px 0px 10px 0;
    }
+   .bbn{
+    width:80px;
+    height:55px;
+   }
+   h2, h3{
+       font-size: 15px;
+   }
+
+.bbnradio{
+    padding:20px 5px;
+   }
+   .details{
+       height:95px;
+   }
+}
 @media(max-width:300px){
   section{
        padding:25px 0px;
@@ -419,4 +423,9 @@ h2{
        height:385px;
        }
 }
-/* ancho maximo 272px de ahi deja de ser responsive :v */
+@media(max-width:265px){
+    article li{
+        font-size:12px;
+    }
+}
+/* ancho minimo 227px de ahi deja de ser responsive :v */
