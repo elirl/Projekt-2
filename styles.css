@@ -9,8 +9,11 @@ body{
        background-size: cover;
        background-position: center; 
    }
-   article,section{
-    animation: anim 1.2s linear 0s 1;
+article:hover{
+    animation: hover-a 16s alternate 0.1s 3;
+} 
+section:hover{
+    animation: shover 16s alternate 0.1s infinite;
 }
    header{
        background: linear-gradient(
@@ -23,7 +26,7 @@ body{
        padding:20px;
        margin-top:25px;
        box-shadow: 1px 1px 20px coral ;
-        animation: anim 1s linear  1;
+        animation: anim 1.5s linear 1;
 
    }
    h1{
@@ -167,6 +170,30 @@ article ul{
 article li{
  padding:15px;
 }
+section{
+    display:flex;
+    flex-direction:column;
+      padding:50px 20px;
+      width:40%;
+      background-color: wheat;
+      margin:15px 125px;
+      border: 1px solid transparent;
+      border-radius: 15px;
+  }
+  article{
+    display:flex;
+       flex-direction: column;
+      margin-top:-510px;
+      background-color: turquoise;
+      width:40%;
+      float:right;
+      height:495px;
+      padding:20px 50px;
+      margin-right: 125px;
+      border: 1px solid transparent;
+      border-radius: 15px;
+  }
+
 /* ancho minimo 227px de ahi deja de ser responsive :v */
 
 /* ANIMACIONES */
@@ -240,26 +267,58 @@ article li{
      
  }
 }
-section{
-    display:flex;
-    flex-direction:column;
-      padding:50px 20px;
-      width:40%;
-      background-color: wheat;
-      margin:15px 125px;
-      border: 1px solid transparent;
-      border-radius: 15px;
-  }
-  article{
-    display:flex;
-       flex-direction: column;
-      margin-top:-510px;
-      background-color: turquoise;
-      width:40%;
-      float:right;
-      height:495px;
-      padding:20px 50px;
-      margin-right: 125px;
-      border: 1px solid transparent;
-      border-radius: 15px;
-  }
+@keyframes shover{
+    0%{
+        opacity: 0.6;
+    }
+10%{
+    opacity: 0.7;
+}
+20%{
+    background-color: lemonchiffon;
+    opacity: 0.8;
+}
+50%{
+    background-color: linen;
+    opacity: 0.8;
+}
+75%{
+    background-color: moccasin;
+    opacity: 0.9;
+}
+90%{
+    background-color: navajowhite;
+    opacity: 1;
+}
+100%{
+    background-color: wheat;
+}
+}
+@keyframes hover-a{
+    0%{
+        opacity: 0.6;
+    }
+10%{
+    opacity: 0.7;
+}
+20%{
+    background-color:skyblue;
+    opacity: 0.8;
+}
+50%{
+    background-color:royalblue;
+    opacity: 0.8;
+}
+75%{
+    background-color:powderblue;
+    opacity: 0.9;
+}
+90%{
+    background-color:paleturquoise;
+    opacity: 1;
+}
+100%{
+    background-color: turquoise;
+}
+
+}
