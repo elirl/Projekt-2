@@ -231,30 +231,29 @@ section{
 }
 @keyframes anim {
  0%{
-
      position: relative;
      opacity: 0.1;
-     top:500px;
+     top:250px;
  }
  20%{
     position: relative;
      opacity:0.2;
-     top:400px;
+     top:200px;
  }
- 30%{
+ 40%{
     position: relative;
      opacity: 0.4;
-     top:300px;
+     top:150px;
  }
- 50%{
+ 60%{
     position: relative;
      opacity: 0.6;
-     top:200px;
+     top:100px;
  }
  80%{
     position: relative;
      opacity: 0.7;
-     top:100px;
+     top:50px;
  }
  99%{
     position: relative;
@@ -306,7 +305,7 @@ section{
     opacity: 0.8;
 }
 50%{
-    background-color:royalblue;
+    background-color:cadetblue;
     opacity: 0.8;
 }
 75%{
