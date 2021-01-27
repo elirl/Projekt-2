@@ -110,12 +110,12 @@ body {
   }
   
   #quote-box {
-    width: 400px;
+    width: 370px;
     padding: 20px;
     display: block;
   }
   #quote-box .quote-text {
-    width: 400px;
+    width: 370px;
     clear: both;
     font-weight: 300;
     font-size: 1.45em;
@@ -156,7 +156,7 @@ body {
     display: block;
   }
   #quote-box .quote-text {
-    width: 280px;
+    width: 300px;
     font-weight: 200;
     font-size: 1.25em;
   }
