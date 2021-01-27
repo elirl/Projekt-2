@@ -152,12 +152,12 @@ body {
 }
 @media (max-width:450px){ 
   #quote-box {
-    width: 300px;
+    width: 320px;
     padding: 10px;
     display: block;
   }
   #quote-box .quote-text {
-    width: 300px;
+    width: 280px;
     font-weight: 200;
     font-size: 1.25em;
   }
