@@ -31,7 +31,7 @@ function getQuotes() {
       Accept: 'application/json'
     },
     url:
-      'https://gist.githubusercontent.com/elirl/d47bbd5817892851ed09e909ba9f71c2/raw/a15af48ec32760b9dd22c301b3104d28611d2dd3/quotes.json',
+      'https://gist.githubusercontent.com/elirl/d47bbd5817892851ed09e909ba9f71c2/raw/f8d099be051b329209891e0f945b42732e31d7ba/quotes.json',
     success: function (jsonQuotes) {
       if (typeof jsonQuotes === 'string') {
         quotesData = JSON.parse(jsonQuotes);
