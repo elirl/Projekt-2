@@ -170,6 +170,18 @@ article ul{
 article li{
  padding:15px;
 }
+.btn{
+    width:100%;
+    position:fixed;
+    bottom: 70px;
+    right:60px;
+    padding:10px; 
+    text-align: right;
+}
+.back{
+    position: absolute; 
+    font-size:3em;
+}
 section{
     display:flex;
     flex-direction:column;
