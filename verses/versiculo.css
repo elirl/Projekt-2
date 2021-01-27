@@ -111,7 +111,7 @@ body {
   }
   
   #quote-box {
-    width: 370px;
+    width: 410px;
     padding: 20px;
     display: block;
   }
@@ -119,7 +119,7 @@ body {
     width: 370px;
     clear: both;
     font-weight: 300;
-    font-size: 1.45em;
+    font-size: 1.35em;
   }
   #quote-box .quote-text i {
     font-size: 1em;
