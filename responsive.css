@@ -125,9 +125,6 @@
       }
   
   nav li:hover>ul{
-      display:block;
-      top:30px;
-      left:0px;
     z-index:10;
   }
 
