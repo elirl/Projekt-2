@@ -156,7 +156,7 @@ body {
     display: block;
   }
   #quote-box .quote-text {
-    width: 300px;
+    width: 280px;
     font-weight: 200;
     font-size: 1.25em;
   }
@@ -211,7 +211,7 @@ body {
     text-align: center;
   }
   #quote-box .buttons {
-    width: 200px;
+    width: 250px;
     margin: auto;
     display: block;
   }
