@@ -138,7 +138,7 @@ section:hover{
         color: whitesmoke;
     }
     #main-div{
-        margin-top:300px;
+        margin-top:0px;
     }
    
    
@@ -210,7 +210,10 @@ section{
       border: 1px solid transparent;
       border-radius: 15px;
   }
-
+iframe{
+    position:sticky;
+         margin-top: 280px;
+}
 /* ancho minimo 227px de ahi deja de ser responsive :v */
 
 /* ANIMACIONES */
