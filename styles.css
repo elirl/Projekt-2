@@ -213,6 +213,8 @@ section{
 .framecaption{
     position:sticky;
          margin-top: 280px;
+         padding:10px;
+         color: white;
 }
 /* ancho minimo 227px de ahi deja de ser responsive :v */
 
