@@ -100,6 +100,15 @@
           margin: 0 auto;
           height:100px;
       }
+      iframe{
+        margin-top:10px;
+      }
+ }
+ @media(max-width:630px){
+  iframe{
+    width:90%; 
+    height:450px;
+  }
  }
  @media (max-width:615px){
    article{
@@ -112,6 +121,10 @@
      padding:35px 0px;
          margin:15px 30px;
      }
+     iframe{
+      width:95%; 
+      height:410px;
+    }
      article{
          margin-right: 30px;
        padding:20px 10px;
@@ -168,6 +181,10 @@
          left:38.5%;
          margin: -90px auto;
      }
+     iframe{
+      width:95%; 
+      height:390px;
+    }
    h2{
      font-size:15px;
    }
@@ -195,6 +212,10 @@ height:360px;
      width:270px;
      height:270px;
  }
+ iframe{
+
+  height:360px;
+}
  article li{
      padding: 10px 0px 10px 0;
  }
