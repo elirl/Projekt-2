@@ -8,6 +8,10 @@ body{
        background-repeat: no-repeat;
        background-size: cover;
        background-position: center; 
+       cursor: url(cursors/unavalible.cur),auto;
+   }
+   a:hover{
+       cursor: url(cursors/mid.cur), auto;
    }
 article:hover{
     animation: hover-a 16s alternate 0.1s 3;
@@ -56,7 +60,7 @@ section:hover{
    }
    .imgs ul:hover{
        animation-play-state: paused;
-       cursor: wait;
+       cursor: url(cursors/leaguehelp.cur), auto;
    }
    .imgs li{
        list-style: none;
@@ -71,16 +75,15 @@ section:hover{
 
     nav ul{
         display: flex;
-        
         align-items: center;
         justify-content: center;
         margin:15px;
     }
-    nav a{
+    nav a, nav a:hover{
         text-decoration:none;
        color:inherit;
-       
        font-size:12px;
+       cursor: url(cursors/link.cur), auto;
        }
              
    nav li{
@@ -90,17 +93,18 @@ section:hover{
        text-align:center;
        color:#fff;
        position:relative;
-       
    }
              
    nav li:hover{
        background-color:#fff;
        color:#000;
+       cursor: url(cursors/link.cur), auto;
        }
              
    nav li>ul{
        display:none;
        list-style: none;
+
        }
    
    nav li:hover>ul{
@@ -108,6 +112,7 @@ section:hover{
        position: absolute;
        top:20px;
        left:-10px;
+       cursor: url(cursors/link.cur), auto;
    }
     main{
         margin-top: 15px;
