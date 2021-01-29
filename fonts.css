@@ -6,6 +6,7 @@
     list-style: none;
     text-decoration: none;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* overflow: hidden; */
    }
    html{
     scroll-behavior: smooth;
