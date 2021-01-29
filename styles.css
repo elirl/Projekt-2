@@ -10,12 +10,26 @@ body{
        background-position: center; 
        cursor: url(cursors/unavalible.cur),auto;
    }
+   a{
+    transition: transform 0.5s;
+   }
    a:hover{
        cursor: url(cursors/mid.cur), auto;
+       transform: scaleX(1.1);
+       transition: transform 0.5s;
    }
 article:hover{
     animation: hover-a 6s alternate 0.1s infinite;
 } 
+.fb1{
+    width:20%;
+    margin: 0 auto;
+    transition: transform 0.5s;
+}
+article li:hover, .fb1:hover{
+    transform: scaleX(1.1);
+    transition: transform 0.5s;
+}
 section:hover{
     animation: shover 6s alternate 0.1s infinite;
 }
@@ -174,6 +188,7 @@ article ul{
 }
 article li{
  padding:15px;
+ transition: transform 0.5s;
 }
 
 button {
@@ -342,7 +357,6 @@ section{
     opacity: 0.8;
 }
 75%{
-    background-color:powderblue;
     opacity: 0.9;
 }
 90%{
