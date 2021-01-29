@@ -103,6 +103,13 @@
       .framecaption{
         margin-top:10px;
       }
+      button {
+        bottom: 40px;
+        right: 40px;
+        width: 50px;
+        height: 50px;
+        font-size: 26px;
+    }
  }
  @media(max-width:630px){
   iframe{
@@ -195,6 +202,13 @@
       width:90%;
       padding:10px;
   }
+  button {
+    bottom: 30px;
+    right: 30px;
+    width: 45px;
+    height: 45px;
+    font-size: 25px;
+}
      
  }
  @media (max-width:390px) {
