@@ -53,7 +53,7 @@ nav li:hover>ul{
    left:-10px;
    cursor: url(/cursors/link.cur), auto;
 }
-#gotoTop {
+#goToTop {
     position: fixed;
     z-index: 2;
     bottom: 50px;
@@ -70,13 +70,13 @@ nav li:hover>ul{
     opacity: 0;
     transition: opacity 0.5;
 }
-#gotoTop:hover{
+#goToTop:hover{
     cursor: url(/cursors/unavalible.cur),auto;
 }
-#gotoTop.show:hover{
+#goToTop.show:hover{
     cursor: url(/cursors/link.cur),auto;
 }
-#gotoTop.show {
+#goToTop.show {
     opacity: 1;
     transition: opacity 0.5;
 }
