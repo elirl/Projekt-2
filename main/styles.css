@@ -4,17 +4,17 @@
 }
 
 body{
-       background-image: url(imgs/fondo1.jpg);
+       background-image: url(/imgs/fondo1.jpg);
        background-repeat: no-repeat;
        background-size: cover;
        background-position: center; 
-       cursor: url(cursors/unavalible.cur),auto;
+       cursor: url(/cursors/unavalible.cur),auto;
    }
    a{
     transition: transform 0.5s;
    }
    a:hover{
-       cursor: url(cursors/mid.cur), auto;
+       cursor: url(/cursors/mid.cur), auto;
        transform: scaleX(1.1);
        transition: transform 0.5s;
    }
@@ -74,7 +74,7 @@ section:hover{
    }
    .imgs ul:hover{
        animation-play-state: paused;
-       cursor: url(cursors/leaguehelp.cur), auto;
+       cursor: url(/cursors/leaguehelp.cur), auto;
    }
    .imgs li{
        list-style: none;
@@ -97,7 +97,7 @@ section:hover{
         text-decoration:none;
        color:inherit;
        font-size:12px;
-       cursor: url(cursors/link.cur), auto;
+       cursor: url(/cursors/link.cur), auto;
        }
              
    nav li{
@@ -112,7 +112,7 @@ section:hover{
    nav li:hover{
        background-color:#fff;
        color:#000;
-       cursor: url(cursors/link.cur), auto;
+       cursor: url(/cursors/link.cur), auto;
        }
              
    nav li>ul{
@@ -126,7 +126,7 @@ section:hover{
        position: absolute;
        top:20px;
        left:-10px;
-       cursor: url(cursors/link.cur), auto;
+       cursor: url(/cursors/link.cur), auto;
    }
     main{
         margin-top: 15px;
@@ -209,10 +209,10 @@ button {
     transition: opacity 0.5;
 }
 button:hover{
-    cursor: url(cursors/unavalible.cur),auto;
+    cursor: url(/cursors/unavalible.cur),auto;
 }
 button.show:hover{
-    cursor: url(cursors/link.cur),auto;
+    cursor: url(/cursors/link.cur),auto;
 }
 button.show {
     opacity: 1;
