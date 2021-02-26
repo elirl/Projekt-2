@@ -7,13 +7,46 @@
     <link rel="stylesheet" href="horarios.css">
 </head>
 <body>
-    <header>
+    <button id="goToTop">
+        <i class="fas fa-angle-up"></i>
+      </button>
+      <header id="header">
+        <h1>Iglesia Evangelica Bautista EV-24 "Esperanza Viva"</h1><span style="font-size: smaller;">
+          <script>
+            function makeArray() {
+              for (i = 0; i < makeArray.arguments.length; i++) this[i + 1] = makeArray.arguments[i]
+            }
+            var months = new makeArray('Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 'Julio', 'Agosto',
+              'Septiembre', 'Octubre', 'Noviembre', 'Diciembre');
+            var date = new Date();
+            var day = date.getDate();
+            var month = date.getMonth() + 1;
+            var yy = date.getYear();
+            var year = (yy < 1000) ? yy + 1900 : yy;
+            document.write("Hoy es " + day + " de " + months[month] + " del " + year);
+          </script>
+        </span>
+        <p class="verse">"Todo lo puedo en Cristo que me fortalece" <span style="font-size: smaller;">--Filipenses
+            4:13</span></p>
+        </p>
         <nav>
-            <a href="#">Inicio</a>
-            <a href="#">Horarios</a>
-            <a href="#">Contactanos</a>
+          <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="">Horarios</a></li>
+            <li><a href="#">Actividades</a>
+              <ul>
+                <li><a href="#">General</a></li>
+                <li><a href="#">Señoras</a></li>
+                <li><a href="#">Hombres</a></li>
+                <li><a href="#">Niños</a></li>
+              </ul>
+            </li>
+            <li><a href="#">Recursos</a></li>
+            <li><a href="#">Contacto</a></li>
+          </ul>
         </nav>
-    </header>
+    
+      </header>
     <main>
         <h1>h1</h1>
     </main>
