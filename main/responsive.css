@@ -137,17 +137,7 @@
          width:60vw;
          height: 30vh;
      }
-     nav ul{
-      flex-wrap:wrap;
-    }
-    nav li>ul{
-      display:none;
-      list-style: none;
-      }
-  
-  nav li:hover>ul{
-    z-index:10;
-  }
+    
 
  }
  @media(max-width:400px){

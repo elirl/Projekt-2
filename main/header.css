@@ -12,10 +12,64 @@ header{
      animation: anim 1s linear 1;
 
 }
+nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:15px;
+}
+nav a, nav a:hover{
+    text-decoration:none;
+   color:inherit;
+   font-size:12px;
+   cursor: url(/cursors/link.cur), auto;
+   }
+         
+nav li{
+    padding: 5px 12px;
+   background-color: orange;
+   border: 1px solid red;
+   text-align:center;
+   color:#fff;
+   position:relative;
+}
+         
+nav li:hover{
+   background-color:#fff;
+   color:#000;
+   cursor: url(/cursors/link.cur), auto;
+   }
+         
+nav li>ul{
+   display:none;
+   list-style: none;
+
+   }
+
+nav li:hover>ul{
+   display:block;
+   position: absolute;
+   top:20px;
+   left:-10px;
+   cursor: url(/cursors/link.cur), auto;
+}
 @media (max-width:700px){
     header{
         width:90%;
         padding:20px;
+    }
+}
+@media (max-width:485px){
+    nav ul{
+        flex-wrap:wrap;
+      }
+      nav li>ul{
+        display:none;
+        list-style: none;
+        }
+    
+    nav li:hover>ul{
+      z-index:10;
     }
 }
 @media (max-width:400px){
