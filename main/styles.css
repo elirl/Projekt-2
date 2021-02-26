@@ -33,20 +33,7 @@ article li:hover, .fb1:hover{
 section:hover{
     animation: shover 6s alternate 0.1s infinite;
 }
-   header{
-       background: linear-gradient(
-           90deg,
-           rgba(187,168,129,0.9),
-           rgba(207,180,148,0.9)
-       );
-       width:80%;
-       margin:0 auto;
-       padding:20px;
-       margin-top:25px;
-       box-shadow: 1px 1px 20px coral ;
-        animation: anim 1s linear 1;
 
-   }
    h1{
        margin: 25px 0 5px 0;
        font-size:25px;
