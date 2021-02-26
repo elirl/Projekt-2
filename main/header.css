@@ -53,10 +53,44 @@ nav li:hover>ul{
    left:-10px;
    cursor: url(/cursors/link.cur), auto;
 }
+#gotoTop {
+    position: fixed;
+    z-index: 2;
+    bottom: 50px;
+    right: 50px;
+    width: 60px;
+    height: 60px;
+    font-size: 28px;
+    outline: none;
+    border: none;
+    background:  linear-gradient(45deg, #ff8c09, #e42e71);
+    border-radius: 50%;
+    color: white;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.3);
+    opacity: 0;
+    transition: opacity 0.5;
+}
+#gotoTop:hover{
+    cursor: url(/cursors/unavalible.cur),auto;
+}
+#gotoTop.show:hover{
+    cursor: url(/cursors/link.cur),auto;
+}
+#gotoTop.show {
+    opacity: 1;
+    transition: opacity 0.5;
+}
 @media (max-width:700px){
     header{
         width:90%;
         padding:20px;
+    }
+    button {
+        bottom: 40px;
+        right: 40px;
+        width: 50px;
+        height: 50px;
+        font-size: 26px;
     }
 }
 @media (max-width:485px){
@@ -75,5 +109,12 @@ nav li:hover>ul{
 @media (max-width:400px){
     header{
         padding:10px;
+    }
+    button {
+        bottom: 30px;
+        right: 30px;
+        width: 45px;
+        height: 45px;
+        font-size: 25px;
     }
 }
