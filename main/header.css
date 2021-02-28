@@ -80,6 +80,17 @@ nav li:hover>ul{
     opacity: 1;
     transition: opacity 0.5;
 }
+h1{
+    margin: 25px 0 5px 0;
+    font-size:25px;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 700;
+}
+.verse, p{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size:15px;
+    font-weight: 500;
+}
 @media (max-width:700px){
     header{
         width:90%;
