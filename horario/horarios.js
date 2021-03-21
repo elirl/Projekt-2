@@ -4,7 +4,7 @@ window.addEventListener("load", () => {
 
     $(window).scroll( () => {
         /* Class added when scroll > 500px from top */
-        if ($(window).scrollTop() > 500 ) {
+        if ($(window).scrollTop() > 200 ) {
             button.addClass('show');
         } else {
             button.removeClass('show');
