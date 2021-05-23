@@ -1,24 +1,417 @@
-<!DOCTYPE html>
-<html lang="en">
+<html xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:x="urn:schemas-microsoft-com:office:excel"
+xmlns="http://www.w3.org/TR/REC-html40">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-<link rel="stylesheet" href="events.css">
-        </head>
-        <body>
-        
-            <div id="N" class="c1">
-              <form>
-                <input type="button" value="NO" onmouseover="t()" />
-              </form>
-            </div>
-            <div id="Y" class="c2">
-              <form>
-                <input type="button" value="SI" onclick="al()" />
-              </form>
-            </div>
-    <h1>empty</h1>
-    <script src="events.js"></script>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<meta name=ProgId content=Excel.Sheet>
+<meta name=Generator content="Microsoft Excel 15">
+<link rel=File-List href="PLANIFICACION%20IEBEV%202021_archivos/filelist.xml">
+<style id="PLANIFICACION IEBEV 2021_10948_Styles">
+<!--table
+	{mso-displayed-decimal-separator:"\,";
+	mso-displayed-thousand-separator:"\.";}
+.xl1510948
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:black;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:general;
+	vertical-align:bottom;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;}
+.xl6310948
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:red;
+	font-size:12.0pt;
+	font-weight:700;
+	font-style:italic;
+	text-decoration:none;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:center;
+	vertical-align:middle;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;}
+.xl6410948
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:#00B050;
+	font-size:11.0pt;
+	font-weight:700;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:general;
+	vertical-align:bottom;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;}
+.xl6510948
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:red;
+	font-size:12.0pt;
+	font-weight:700;
+	font-style:italic;
+	text-decoration:none;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:"\@";
+	text-align:center;
+	vertical-align:middle;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;}
+.xl6610948
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:black;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:general;
+	vertical-align:bottom;
+	background:yellow;
+	mso-pattern:black none;
+	white-space:nowrap;}
+.xl6710948
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:red;
+	font-size:12.0pt;
+	font-weight:700;
+	font-style:italic;
+	text-decoration:none;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:center;
+	vertical-align:middle;
+	background:yellow;
+	mso-pattern:black none;
+	white-space:nowrap;}
+.xl6810948
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:#00B050;
+	font-size:11.0pt;
+	font-weight:700;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:general;
+	vertical-align:bottom;
+	background:yellow;
+	mso-pattern:black none;
+	white-space:nowrap;}
+.xl6910948
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:black;
+	font-size:14.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:center;
+	vertical-align:bottom;
+	border-top:none;
+	border-right:none;
+	border-bottom:none;
+	border-left:.5pt solid windowtext;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;}
+.xl7010948
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:black;
+	font-size:14.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:Calibri, sans-serif;
+	mso-font-charset:0;
+	mso-number-format:General;
+	text-align:center;
+	vertical-align:bottom;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;}
+-->
+</style>
+<title>table</title>
+</head>
+
+<body>
+<!--[if !excel]>&nbsp;&nbsp;<![endif]-->
+<!--La siguiente información se generó mediante el Asistente para publicar como
+página web de Microsoft Excel.-->
+<!--Si se vuelve a publicar el mismo elemento desde Excel, se reemplazará toda
+la información comprendida entre las etiquetas DIV.-->
+<!----------------------------->
+<!--INICIO DE LOS RESULTADOS DEL ASISTENTE PARA PUBLICAR COMO PÁGINA WEB DE
+EXCEL -->
+<!----------------------------->
+
+<div id="PLANIFICACION IEBEV 2021_10948" align=center x:publishsource="Excel">
+
+<h1 style='color:black;font-family:Calibri;font-size:14.0pt;font-weight:800;
+font-style:normal'>table</h1>
+
+<table border=0 cellpadding=0 cellspacing=0 width=448 style='border-collapse:
+ collapse;table-layout:fixed;width:336pt'>
+ <col width=80 span=2 style='width:60pt'>
+ <col class=xl6310948 width=48 style='mso-width-source:userset;mso-width-alt:
+ 1755;width:36pt'>
+ <col width=80 span=3 style='width:60pt'>
+ <tr height=29 style='mso-height-source:userset;height:21.75pt'>
+  <td height=29 class=xl1510948 width=80 style='height:21.75pt;width:60pt'></td>
+  <td colspan=4 class=xl6910948 width=288 style='width:216pt'>PLANES 2021</td>
+  <td class=xl1510948 width=80 style='width:60pt'></td>
+ </tr>
+ <tr height=21 style='height:15.75pt'>
+  <td height=21 class=xl1510948 style='height:15.75pt'></td>
+  <td class=xl1510948></td>
+  <td class=xl6310948></td>
+  <td class=xl1510948></td>
+  <td class=xl1510948></td>
+  <td class=xl1510948></td>
+ </tr>
+ <tr height=21 style='height:15.75pt'>
+  <td height=21 class=xl1510948 style='height:15.75pt'></td>
+  <td class=xl1510948>MAYO</td>
+  <td class=xl6310948>28</td>
+  <td class=xl1510948 colspan=3>CENA / CONFIRMAR (Dia/Madre)</td>
+ </tr>
+ <tr height=21 style='height:15.75pt'>
+  <td height=21 class=xl1510948 style='height:15.75pt'></td>
+  <td class=xl1510948>MAYO</td>
+  <td class=xl6310948>29</td>
+  <td class=xl1510948 colspan=2>DIA DE LA MADRE</td>
+  <td class=xl1510948></td>
+ </tr>
+ <tr height=21 style='height:15.75pt'>
+  <td height=21 class=xl1510948 style='height:15.75pt'></td>
+  <td class=xl1510948></td>
+  <td class=xl6310948>30</td>
+  <td class=xl1510948 colspan=2>CULTOS POR ZOOM</td>
+  <td class=xl1510948></td>
+ </tr>
+ <tr height=21 style='height:15.75pt'>
+  <td height=21 class=xl1510948 style='height:15.75pt'></td>
+  <td class=xl6610948>JUNIO</td>
+  <td class=xl6710948>4</td>
+  <td class=xl6810948>Feriado :</td>
+  <td class=xl6610948>&nbsp;</td>
+  <td class=xl1510948></td>
+ </tr>
+ <tr height=21 style='height:15.75pt'>
+  <td height=21 class=xl1510948 style='height:15.75pt'></td>
+  <td class=xl6610948>&nbsp;</td>
+  <td class=xl6710948>6</td>
+  <td class=xl6610948 colspan=2>DIA DEL MAESTRO</td>
+  <td class=xl1510948></td>
+ </tr>
+ <tr height=21 style='height:15.75pt'>
+  <td height=21 class=xl1510948 style='height:15.75pt'></td>
+  <td class=xl6610948>&nbsp;</td>
+  <td class=xl6710948>13</td>
+  <td class=xl6610948 colspan=2>DIA DEL DIACONO</td>
+  <td class=xl1510948></td>
+ </tr>
+ <tr height=21 style='height:15.75pt'>
+  <td height=21 class=xl1510948 style='height:15.75pt'></td>
+  <td class=xl6610948>&nbsp;</td>
+  <td class=xl6710948>13</td>
+  <td class=xl6610948 colspan=2>SALIR A EVANGELIZAR</td>
+  <td class=xl1510948></td>
+ </tr>
+ <tr height=21 style='height:15.75pt'>
+  <td height=21 class=xl1510948 style='height:15.75pt'></td>
+  <td class=xl6610948>&nbsp;</td>
+  <td class=xl6710948>20</td>
+  <td class=xl6610948 colspan=2>DIA DEL PREDICADOR</td>
+  <td class=xl1510948></td>
+ </tr>
+ <tr height=21 style='height:15.75pt'>
+  <td height=21 class=xl1510948 style='height:15.75pt'></td>
+  <td class=xl6610948>&nbsp;</td>
+  <td class=xl6710948>21</td>
+  <td class=xl6810948>Feriado :</td>
+  <td class=xl6610948>&nbsp;</td>
+  <td class=xl1510948></td>
+ </tr>
+ <tr height=21 style='height:15.75pt'>
+  <td height=21 class=xl1510948 style='height:15.75pt'></td>
+  <td class=xl6610948>&nbsp;</td>
+  <td class=xl6710948>27</td>
+  <td class=xl6610948 colspan=2>DIA DEL MISIONERO</td>
+  <td class=xl1510948></td>
+ </tr>
+ <tr height=21 style='height:15.75pt'>
+  <td height=21 class=xl1510948 style='height:15.75pt'></td>
+  <td class=xl1510948>JULIO</td>
+  <td class=xl6510948>6-10</td>
+  <td class=xl1510948 colspan=3>ESCUELA BIBLICA VACACIONAL</td>
+ </tr>
+ <tr height=21 style='height:15.75pt'>
+  <td height=21 class=xl1510948 style='height:15.75pt'></td>
+  <td class=xl1510948></td>
+  <td class=xl6510948>11</td>
+  <td class=xl1510948 colspan=2>SALIR A EVANGELIZAR</td>
+  <td class=xl1510948></td>
+ </tr>
+ <tr height=21 style='height:15.75pt'>
+  <td height=21 class=xl1510948 style='height:15.75pt'></td>
+  <td class=xl6610948>AGOSTO</td>
+  <td class=xl6710948>6</td>
+  <td class=xl6610948 colspan=2>FERIA DE COMIDAS</td>
+  <td class=xl1510948></td>
+ </tr>
+ <tr height=21 style='height:15.75pt'>
+  <td height=21 class=xl1510948 style='height:15.75pt'></td>
+  <td class=xl6610948>&nbsp;</td>
+  <td class=xl6710948>15</td>
+  <td class=xl6610948 colspan=2>INICIO DE LA CONSTRUCCI<span style='display:
+  none'>ÓN</span></td>
+  <td class=xl1510948></td>
+ </tr>
+ <tr height=21 style='height:15.75pt'>
+  <td height=21 class=xl1510948 style='height:15.75pt'></td>
+  <td class=xl6610948>&nbsp;</td>
+  <td class=xl6710948>22</td>
+  <td class=xl6610948 colspan=2>SALIR A EVANGELIZAR</td>
+  <td class=xl1510948></td>
+ </tr>
+ <tr height=21 style='height:15.75pt'>
+  <td height=21 class=xl1510948 style='height:15.75pt'></td>
+  <td class=xl1510948>SEPTIEMBRE</td>
+  <td class=xl6310948>19</td>
+  <td class=xl1510948 colspan=2>SALIR A EVANGELIZAR</td>
+  <td class=xl1510948></td>
+ </tr>
+ <tr height=21 style='height:15.75pt'>
+  <td height=21 class=xl1510948 style='height:15.75pt'></td>
+  <td class=xl1510948></td>
+  <td class=xl6310948>24-26</td>
+  <td class=xl1510948 colspan=3>ANIVERSARIO DE LA IGLESIA</td>
+ </tr>
+ <tr height=21 style='height:15.75pt'>
+  <td height=21 class=xl1510948 style='height:15.75pt'></td>
+  <td class=xl6610948>OCTUBRE</td>
+  <td class=xl6710948>17</td>
+  <td class=xl6610948 colspan=2>SALIR A EVANGELIZAR</td>
+  <td class=xl1510948></td>
+ </tr>
+ <tr height=21 style='height:15.75pt'>
+  <td height=21 class=xl1510948 style='height:15.75pt'></td>
+  <td class=xl6610948>&nbsp;</td>
+  <td class=xl6710948>10 Y 31</td>
+  <td class=xl6610948 colspan=2>PLANES 2022</td>
+  <td class=xl1510948></td>
+ </tr>
+ <tr height=21 style='height:15.75pt'>
+  <td height=21 class=xl1510948 style='height:15.75pt'></td>
+  <td class=xl6610948>&nbsp;</td>
+  <td class=xl6710948>31</td>
+  <td class=xl6610948 colspan=2>DÍA DEL PASTOR</td>
+  <td class=xl1510948></td>
+ </tr>
+ <tr height=21 style='height:15.75pt'>
+  <td height=21 class=xl1510948 style='height:15.75pt'></td>
+  <td class=xl1510948>NOVIEMBRE</td>
+  <td class=xl6310948>2</td>
+  <td class=xl6410948>Feriado :</td>
+  <td class=xl1510948></td>
+  <td class=xl1510948></td>
+ </tr>
+ <tr height=21 style='height:15.75pt'>
+  <td height=21 class=xl1510948 style='height:15.75pt'></td>
+  <td class=xl1510948></td>
+  <td class=xl6310948>14</td>
+  <td class=xl1510948 colspan=2>SALIR A EVANGELIZAR</td>
+  <td class=xl1510948></td>
+ </tr>
+ <tr height=21 style='height:15.75pt'>
+  <td height=21 class=xl1510948 style='height:15.75pt'></td>
+  <td class=xl6610948>DICIEMBRE</td>
+  <td class=xl6710948>12</td>
+  <td class=xl6610948 colspan=2>SALIR A EVANGELIZAR</td>
+  <td class=xl1510948></td>
+ </tr>
+ <tr height=21 style='height:15.75pt'>
+  <td height=21 class=xl1510948 style='height:15.75pt'></td>
+  <td class=xl6610948>&nbsp;</td>
+  <td class=xl6710948>19</td>
+  <td class=xl6610948 colspan=2>Presentación de Navidad</td>
+  <td class=xl1510948></td>
+ </tr>
+ <tr height=21 style='height:15.75pt'>
+  <td height=21 class=xl1510948 style='height:15.75pt'></td>
+  <td class=xl6610948>&nbsp;</td>
+  <td class=xl6710948>31</td>
+  <td class=xl6610948 colspan=2>Cena de AÑO NUEVO</td>
+  <td class=xl1510948></td>
+ </tr>
+ <![if supportMisalignedColumns]>
+ <tr height=0 style='display:none'>
+  <td width=80 style='width:60pt'></td>
+  <td width=80 style='width:60pt'></td>
+  <td width=48 style='width:36pt'></td>
+  <td width=80 style='width:60pt'></td>
+  <td width=80 style='width:60pt'></td>
+  <td width=80 style='width:60pt'></td>
+ </tr>
+ <![endif]>
+</table>
+
+</div>
+
+
+<!----------------------------->
+<!--FINAL DE LOS RESULTADOS DEL ASISTENTE PARA PUBLICAR COMO PÁGINA WEB DE
+EXCEL-->
+<!----------------------------->
 </body>
+
 </html>
