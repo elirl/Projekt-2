@@ -85,7 +85,7 @@ section:hover{
         position: sticky;
         width:12vw;
         margin: -150px auto;
-        background-color: teal;
+        /* background-color: teal; */
         color: whitesmoke;
     }
     #main-div{
