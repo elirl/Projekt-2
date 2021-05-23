@@ -89,8 +89,8 @@ section:hover{
         margin: -150px auto;
         /* background-color: teal; */
         color:darkorange;
-        font-family: 'Times New Roman', Times, serif;
-        text-transform: capitalize;
+        font-family: 'Arial Black', serif;
+        text-transform:uppercase;
     }
     #main-div{
         margin-top:0px;
