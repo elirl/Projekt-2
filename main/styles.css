@@ -34,7 +34,9 @@ section:hover{
     animation: shover 6s alternate 0.1s infinite;
 }
 
- 
+ .vrs{
+    animation: shover 6s alternate 0.1s infinite;
+ }
    
    /*Slider del header*/
    .imgs{
