@@ -89,6 +89,7 @@ section:hover{
         margin: -150px auto;
         /* background-color: teal; */
         color: whitesmoke;
+        font-family: 'Times New Roman', Times, serif;
     }
     #main-div{
         margin-top:0px;
