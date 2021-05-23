@@ -1,0 +1,15 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;   
+   }
+   html{
+       scroll-behavior: smooth;
+   }
+   body{
+    background-image: url(/imgs/fondo2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+    cursor: url(/cursors/unavalible.cur),auto;
+}
