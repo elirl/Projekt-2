@@ -90,6 +90,7 @@ section:hover{
         /* background-color: teal; */
         color:darkorange;
         font-family: 'Times New Roman', Times, serif;
+        text-transform: capitalize;
     }
     #main-div{
         margin-top:0px;
