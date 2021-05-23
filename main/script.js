@@ -17,3 +17,5 @@ window.addEventListener("load", () => {
     });
 
 })
+
+window.alert("Esta pagina sigue en desarrollo...")
