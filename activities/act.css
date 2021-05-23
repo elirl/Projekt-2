@@ -13,3 +13,7 @@
     background-position: center; 
     cursor: url(/cursors/unavalible.cur),auto;
 }
+table{
+    margin: 0 auto;
+    text-align: center;
+}
