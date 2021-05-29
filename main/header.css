@@ -96,7 +96,7 @@ h1{
         width:90%;
         padding:20px;
     }
-    button {
+    #goToTop {
         bottom: 40px;
         right: 40px;
         width: 50px;
@@ -121,7 +121,7 @@ h1{
     header{
         padding:10px;
     }
-    button {
+    #goToTop {
         bottom: 30px;
         right: 30px;
         width: 45px;

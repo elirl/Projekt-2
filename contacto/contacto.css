@@ -124,9 +124,9 @@
     #survey {
       max-width: 700px;
     }
-    button{
+    /* button{
         width: 70%;
-    }
+    } */
   }
   @media (max-width: 200px) {
     .input-checkbox,
