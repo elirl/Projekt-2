@@ -20,11 +20,11 @@
             <input type="text" name="name" id="name" placeholder="Pon tu nombre" class="input" required />
           </div>
           <div class="elements">
-            <label id="email-label" for="email"> Email </label>
+            <label id="email-label" for="email"> Email <span class="optional">(opcional)</span> </label>
             <input type="email" id="email" name="email" placeholder="Pon tu email" class="input"/>
           </div>
           <div class="elements">
-            <label id="number-label" for="number"> Edad <span class="optional">(optional, must be older than 13 years old)</span> </label>
+            <label id="number-label" for="number"> Edad <span class="optional">(opcional)</span> </label>
             <input type="number" id="number" name="age" min="13" max="99" placeholder="Edad" class="input">
           </div>
           <div class="elements">
@@ -38,7 +38,7 @@
           </div>
           <div class="elements">
             <p>Deja algun comentario o tu peticion</p>
-            <textarea id="textarea" name="ask-me" placeholder="Pon tus comentarios"></textarea>
+            <textarea id="textarea" name="ask-me" placeholder="Pon tus comentarios" min="10" required></textarea>
           </div>
       
           <button type="submit" id="submit">Enviar</button>
