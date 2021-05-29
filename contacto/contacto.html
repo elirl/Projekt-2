@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto-IEBEV24</title>
+</head>
+<body>
+    <div id="survey">
+        <header>
+          <h1 id="title">¡Ponte en contacto!</h1>
+          <p id="description"><em>Rellena con tus datos</em></p>
+        </header>
+        <div id="main">
+        <form id="survey-form" name="contacto" netlify>
+          <div class="elements">
+            <label id="name-label" for="name">Nombre</label>
+            <input type="text" name="name" id="name" placeholder="Pon tu nombre" class="input" required />
+          </div>
+          <div class="elements">
+            <label id="email-label" for="email"> Email </label>
+            <input type="email" id="email" name="email" placeholder="Pon tu email" class="input"/>
+          </div>
+          <div class="elements">
+            <label id="number-label" for="number"> Edad <span class="optional">(optional, must be older than 13 years old)</span> </label>
+            <input type="number" id="number" name="age" min="13" max="99" placeholder="Edad" class="input">
+          </div>
+          <div class="elements">
+            <label class="label" for="dropdown">¿Cual es la razon de tu contacto?</label>
+            <select class="input" id="dropdown" name="dropdown">
+              <option selected disabled>Elije una opcion</option>
+              <option value="Visit">Visita</option>
+              <option value="Peticion">Petición</option>
+              <option value="Otro">Otro</option>
+            </select>
+          </div>
+          <div class="elements">
+            <p>Deja algun comentario o tu peticion</p>
+            <textarea id="textarea" name="ask-me" placeholder="Pon tus comentarios"></textarea>
+          </div>
+      
+          <button type="submit" id="submit">Enviar</button>
+          </div>
+        </form>
+      </div>
+</body>
+</html>
