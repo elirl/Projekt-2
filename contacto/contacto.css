@@ -60,7 +60,7 @@
   
   form {
     padding: 40px;
-    background-image: url(https://mcdn.wallpapersafari.com/medium/12/42/OKF0lh.jpg);
+    background-color: rgba(252, 251, 251, 0.8);
     border-radius: 25px;
   }
   
@@ -142,11 +142,7 @@
       width: 100%;
       top: 0;
       left: 0;
-      background-image: linear-gradient(
-          90deg,
-          rgba(3, 105, 211, 0.5),
-          rgba(0, 254, 255, 0.5)
-        );
+      background-image:url(https://image.freepik.com/free-vector/abstract-background-with-lines-blend-form-waves_87426-21.jpg);
       background-size: cover;
       background-position: center;
     }
